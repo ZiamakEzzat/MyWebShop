@@ -59,7 +59,7 @@ class testHTTPServer_RequestHandler(BaseHTTPRequestHandler):
         self.wfile.write(bytearray(message.read()))
         return
 
-def run():
+def run2():
   print('starting server...')
  
   # Server settings
@@ -70,4 +70,4 @@ def run():
   httpd.serve_forever()
  
  
-run()
+run2()
